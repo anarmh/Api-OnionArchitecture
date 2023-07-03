@@ -1,0 +1,14 @@
+D:\Asp.net\Api-OnionArchitecture\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Asp.net\Api-OnionArchitecture\Domain\bin\Debug\net6.0\Domain.dll
+D:\Asp.net\Api-OnionArchitecture\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.dll
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Asp.net\Api-OnionArchitecture\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Asp.net\Api-OnionArchitecture\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
