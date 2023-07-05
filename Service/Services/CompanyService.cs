@@ -46,7 +46,7 @@ namespace Service.Services
             return dto;
         }
 
-        public async Task<Company> GetById(int? id)
+        public async Task<Company> GetByIdAsync(int? id)
         {
           Company company= await _companyRepo.FindAsync(id);
           return company;

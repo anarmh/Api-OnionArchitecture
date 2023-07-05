@@ -20,7 +20,9 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<ICompanyRepository,CompanyRepository>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<ICompanyService, CompanyService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 
 builder.Services.AddEndpointsApiExplorer();

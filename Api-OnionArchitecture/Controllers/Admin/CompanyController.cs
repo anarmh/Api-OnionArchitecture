@@ -21,6 +21,10 @@ namespace Api_OnionArchitecture.Controllers.Admin
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CompanyCreateDto request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             await _companyService.CreateAsync(request);
             return Ok();
         }
@@ -67,7 +71,7 @@ namespace Api_OnionArchitecture.Controllers.Admin
         {
             try
             {
-                var company = await _companyService.GetById(id);
+                var company = await _companyService.GetByIdAsync(id);
                 return Ok(company);
             }
             catch (NotFoundException ex)

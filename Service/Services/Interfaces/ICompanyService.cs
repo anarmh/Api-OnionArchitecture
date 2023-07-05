@@ -12,7 +12,7 @@ namespace Service.Services.Interfaces
     {
         Task CreateAsync(CompanyCreateDto model);
         Task<List<CompanyDto>> GetAllAsync();
-        Task<Company> GetById(int? id);
+        Task<Company> GetByIdAsync(int? id);
         Task UpdateAsync(int? id,CompanyUpdateDto model);
         Task DeleteAsync(int? id);
         Task<List<Company>> Search(string searchText);
